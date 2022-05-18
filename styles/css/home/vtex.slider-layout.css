@@ -1,0 +1,8 @@
+.paginationDotsContainer--home_slider_principal{
+    transform: translateY(30px);
+}
+
+.paginationDot--home_slider_principal--isActive{
+    transform: scale(1.2);
+    background-color: #939393
+}

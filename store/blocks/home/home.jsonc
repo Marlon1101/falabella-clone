@@ -1,0 +1,51 @@
+{
+  "store.home": {
+    "blocks": ["slider-layout#home_slider_principal"]
+  },
+
+  "slider-layout#home_slider_principal": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "blockClass": "home_slider_principal"
+    },
+    "children": [
+      "image#home_slider_principal--one",
+      "image#home_slider_principal--two",
+      "image#home_slider_principal--three",
+      "image#home_slider_principal--four",
+      "image#home_slider_principal--five"
+    ]
+  },
+  "image#home_slider_principal--one": {
+    "props": {
+      "src": "assets/img/slider_home_principal/V1_J11_Neveras_bespoke_DESK.png"
+    }
+  },
+  "image#home_slider_principal--two": {
+    "props": {
+      "src": "assets/img/slider_home_principal/V3_Belleza_DO_DESK.png"
+    }
+  },
+  "image#home_slider_principal--three": {
+    "props": {
+      "src": "assets/img/slider_home_principal/V1_ADIDAS_J10_LEGENDS_Desk.png"
+    }
+  },
+  "image#home_slider_principal--four": {
+    "props": {
+      "src": "assets/img/slider_home_principal/V5_Modamujer_TG_DESK.png"
+    }
+  },
+  "image#home_slider_principal--five": {
+    "props": {
+      "src": "assets/img/slider_home_principal/V6_Mesdelbebe_DESK.png"
+    }
+  }
+}
