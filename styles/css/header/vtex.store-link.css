@@ -1,0 +1,9 @@
+.childrenContainer--background-color{
+    background-color: #aad500;
+    width: 66px;
+    height: 103px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 24px;
+    transform: translateY(-19px)
+}

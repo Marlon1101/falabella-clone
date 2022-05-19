@@ -1,0 +1,9 @@
+{
+  "header-row#header_4": {
+    "children": [],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "header_4"
+    }
+  }
+}

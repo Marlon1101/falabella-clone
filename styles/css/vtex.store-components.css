@@ -1,0 +1,8 @@
+.logoContainer--logo-falabella{
+    width: 66px !important;
+    transform: translateY(-7px)
+}
+.sizeDesktop{
+    max-height: 103px;
+    padding: 0px;
+}

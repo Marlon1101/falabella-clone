@@ -1,0 +1,34 @@
+{
+  "header-row#header_2": {
+    "children": ["link#background-logo", "drawer#header--menu", "modal-trigger#login"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "header_2"
+    }
+  },
+  "link#background-logo": {
+    "props": {
+      "href": "#",
+      "blockClass": "background-color"
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "url": "assets/img/header_top/falabella-logo.svg",
+      "height": 83,
+      "width": 66,
+      "blockClass": "logo-falabella"
+    }
+  },
+  "drawer#header--menu": {
+    "children": ["menu#drawer"]
+  },
+  "menu#drawer": {
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

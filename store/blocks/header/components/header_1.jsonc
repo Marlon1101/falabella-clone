@@ -1,0 +1,75 @@
+{
+  "header-row#header_1": {
+    "children": [
+      "link#header_1--1",
+      "link#header_1--2",
+      "link#header_1--3",
+      "link#header_1--4",
+      "link#header_1--5",
+      "link#header_1--6",
+      "link#header_1--7",
+      "link#header_1--8"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "header_1"
+    }
+  },
+
+  "link#header_1--1": {
+    "props": {
+      "href": "#",
+      "label": "Venta telefónica 587 8008 O 018000 958787",
+      "blockClass": "header_1--1"
+    }
+  },
+  "link#header_1--2": {
+    "props": {
+      "href": "#",
+      "label": "Venta por WhatsApp  301 6334422",
+      "blockClass": "header_1--2"
+    }
+  },
+  "link#header_1--3": {
+    "props": {
+      "href": "#",
+      "label": "Servicio al cliente",
+      "blockClass": "header_1--3"
+    }
+  },
+  "link#header_1--4": {
+    "props": {
+      "href": "#",
+      "label": "Banco",
+      "blockClass": "header_1--4"
+    }
+  },
+  "link#header_1--5": {
+    "props": {
+      "href": "#",
+      "label": "Seguros",
+      "blockClass": "header_1--5"
+    }
+  },
+  "link#header_1--6": {
+    "props": {
+      "href": "#",
+      "label": "Sodimac",
+      "blockClass": "header_1--6"
+    }
+  },
+  "link#header_1--7": {
+    "props": {
+      "href": "#",
+      "label": "Linio",
+      "blockClass": "header_1--7"
+    }
+  },
+  "link#header_1--8": {
+    "props": {
+      "href": "#",
+      "label": "Crate&Barrel",
+      "blockClass": "header_1--8"
+    }
+  }
+}

@@ -6,3 +6,7 @@
     transform: scale(1.2);
     background-color: #939393
 }
+
+.sliderLayoutContainer--home_slider_principal{
+    transform: translateY(-175px)
+}
