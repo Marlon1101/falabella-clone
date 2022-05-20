@@ -5,4 +5,5 @@
 .sizeDesktop{
     max-height: 103px;
     padding: 0px;
+    min-width: 0px;
 }

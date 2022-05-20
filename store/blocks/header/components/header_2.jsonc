@@ -1,11 +1,33 @@
 {
   "header-row#header_2": {
-    "children": ["link#background-logo", "drawer#header--menu", "modal-trigger#login"],
+    "children": [
+      "link#background-logo",
+      "drawer",
+      /* "drawer#header--menu", */
+      "search-bar",
+      "modal-trigger#login",
+      "minicart.v2"
+    ],
     "props": {
       "fullWidth": true,
       "blockClass": "header_2"
     }
   },
+
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-apparel"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+
   "link#background-logo": {
     "props": {
       "href": "#",
@@ -23,12 +45,25 @@
     }
   },
   "drawer#header--menu": {
-    "children": ["menu#drawer"]
+    "children": [/* "menu#drawer" */ "category-menu"]
   },
-  "menu#drawer": {
+
+  "search-bar": {
+    "props": {
+      "displayMode": "search-and-clear-buttons",
+      "placeholder": "¿Qué buscas?"
+    }
+  },
+  /* "menu#drawer": {
     "children": [],
     "props": {
       "orientation": "vertical"
+    }
+  }, */
+  "minicart.v2": {
+    "props": {
+      "variation": "link",
+      "linkVariationUrl": "basket"
     }
   }
 }

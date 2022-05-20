@@ -9,11 +9,12 @@
     height: 62px;
     transform: translateY(-176px)
 }
-
 .headerRowContainer--header_3 {
     background-color: #fff;
     height: 31px;
-    transform: translateY(-176px)
+    transform: translateY(-176px);
+    display: flex;
+    justify-content: space-evenly;
 }
 .headerRowContainer--header_4 {
     background-color: #e2e2e2;

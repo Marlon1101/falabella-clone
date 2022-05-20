@@ -1,9 +1,20 @@
 {
   "header-row#header_4": {
-    "children": [],
+    "children": ["flex-layout.row#header_4--banner"],
     "props": {
       "fullWidth": true,
       "blockClass": "header_4"
+    }
+  },
+  "flex-layout.row#header_4--banner": {
+    "props": {
+      "fullWidth": true
+    },
+    "children": ["image#header_4--banner"]
+  },
+  "image#header_4--banner":{
+    "props": {
+      "src": "assets/img/header_top/Header_principal_desk.png"
     }
   }
 }

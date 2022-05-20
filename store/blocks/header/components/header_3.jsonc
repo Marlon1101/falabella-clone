@@ -1,9 +1,88 @@
 {
   "header-row#header_3": {
-    "children": [],
+    "children": ["flex-layout.row#header_3--1", "flex-layout.row#header_3--2"],
     "props": {
       "fullWidth": true,
       "blockClass": "header_3"
+    }
+  },
+
+  "flex-layout.row#header_3--1": {
+    "props": {
+      "fullWidth": true,
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "center"
+    }
+  },
+
+  "flex-layout.row#header_3--2": {
+    "children": [
+      "link#header_3--1",
+      "link#header_3--2",
+      "link#header_3--3",
+      "link#header_3--4",
+      "link#header_3--5",
+      "link#header_3--6",
+      "link#header_3--7"
+    ],
+    "props": {
+      "fullWidth": true,
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "center"
+    }
+  },
+
+  "link#header_3--1": {
+    "props": {
+      "href": "#",
+      "label": "Aliado Emprendedor",
+      "blockClass": "header_3--1"
+    }
+  },
+  "link#header_3--2": {
+    "props": {
+      "href": "#",
+      "label": "Horario de tiendas",
+      "blockClass": "header_3--2"
+    }
+  },
+  "link#header_3--3": {
+    "props": {
+      "href": "#",
+      "label": "Club novios",
+      "blockClass": "header_3--3"
+    }
+  },
+  "link#header_3--4": {
+    "props": {
+      "href": "#",
+      "label": "CMR puntos",
+      "blockClass": "header_3--4"
+    }
+  },
+  "link#header_3--5": {
+    "props": {
+      "href": "#",
+      "label": "Solicita aquí tu CMR",
+      "blockClass": "header_3--5"
+    }
+  },
+  "link#header_3--6": {
+    "props": {
+      "href": "#",
+      "label": "Falabella sostenible",
+      "blockClass": "header_3--6"
+    }
+  },
+  "link#header_3--7": {
+    "props": {
+      "href": "#",
+      "label": "Beneficios",
+      "blockClass": "header_3--7"
     }
   }
 }
