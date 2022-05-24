@@ -1,0 +1,422 @@
+{
+  "flex-layout.row#footer_2": {
+    "children": [
+      "flex-layout.col#footer_2--1",
+      "flex-layout.col#footer_2--3",
+      "flex-layout.col#footer_2--3",
+      "flex-layout.col#footer_2--4"
+    ],
+    "props": {
+        "blockClass": "footer_2"
+    }
+  },
+  "flex-layout.col#footer_2--1": {
+    "children": ["rich-text#footer_2--1", "menu#footer_2--1"],
+    "props": {
+      "verticalAlign": "top"
+    }
+  },
+  "flex-layout.col#footer_2--2": {
+    "children": ["rich-text#footer_2--2", "menu#footer_2--2"],
+    "props": {
+      "verticalAlign": "top"
+    }
+  },
+  "flex-layout.col#footer_2--3": {
+    "children": ["rich-text#footer_2--3", "menu#footer_2--3"],
+    "props": {
+      "verticalAlign": "top"
+    }
+  },
+  "flex-layout.col#footer_2--4": {
+    "children": ["rich-text#footer_2--4", "menu#footer_2--4"],
+    "props": {
+      "verticalAlign": "top"
+    }
+  },
+  "rich-text#footer_2--1": {
+    "props": {
+      "text": "**Te ayudamos**"
+    }
+  },
+  "menu#footer_2--1": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer_2--1",
+      "items": [
+        {
+          "id": "menu-item-mi-cuenta",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "mi-cuenta",
+            "text": "Mi Cuenta"
+          } 
+        },
+        {
+          "id": "menu-item-seguimiento-de-mi-orden",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "seguimiento-de-mi-orden",
+            "text": "Seguimiento de mi Orden"
+          }
+        },
+        {
+          "id": "menu-item-nuestras-tiendas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "nuestras-tiendas",
+            "text": "Nuestras Tiendas"
+          }
+        },
+        {
+          "id": "menu-item-medios-de-pago",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "medios de-pago",
+            "text": "Medios de Pago"
+          }
+        },
+        {
+          "id": "menu-item-métodos-de-entrega",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "métodos-de-entrega",
+            "text": "Métodos de Entrega"
+          }
+        },
+        {
+          "id": "menu-item-términos-y-condiciones",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "términos-y-condiciones",
+            "text": "Términos y condiciones"
+          }
+        },
+        {
+          "id": "menu-item-política-de-tratamiento-de-datos",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "pólitica-de-tratamiento-de-datos",
+            "text": "Pólitica de tratamiento de datos"
+          }
+        },
+        {
+          "id": "menu-item-derecho-de-retracto",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "derecho-de-retracto",
+            "text": "Derecho de retracto"
+          }
+        },
+        {
+          "id": "menu-item-comunicaciones-falabella",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "comunicaciones-falabella",
+            "text": "Comunicaciones Falabella"
+          }
+        },
+        {
+          "id": "menu-item-cambios-y-devoluciones",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "cambios-y-devoluciones",
+            "text": "Cambios y devoluciones"
+          }
+        },
+        {
+          "id": "menu-item-reversión-del-pago",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "reversión-del-pago",
+            "text": "Reversión del pago"
+          }
+        },
+        {
+          "id": "menu-item-¿cómo-redimir-tu-giftcard?",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "¿cómo-redimir-tu-giftCard?",
+            "text": "¿Cómo redimir tu GiftCard?"
+          }
+        },
+        {
+          "id": "menu-item-factura-electrónica",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "factura-electrónica",
+            "text": "Factura Electrónica"
+          }
+        }
+      ]
+    }
+  },
+  "rich-text#footer_2--2": {
+    "props": {
+      "text": "**Sé parte de Falabella.com**"
+    }
+  },
+  "menu#footer_2--2": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-nuestra-empresa",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "nuestra-empresa",
+            "text": "Nuestra Empresa"
+          }
+        },
+        {
+          "id": "menu-item-proveedores",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "proveedores",
+            "text": "Proveedores"
+          }
+        },
+        {
+          "id": "menu-item-venta-empresa",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "venta-empresa",
+            "text": "Venta empresa"
+          }
+        },
+        {
+          "id": "menu-item-inversionistas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "inversionistas",
+            "text": "Inversionistas"
+          }
+        },
+        {
+          "id": "menu-item-red-verde",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "red-verde",
+            "text": "Red verde"
+          }
+        },
+        {
+          "id": "menu-item-canal-de-integridad",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "canal-de-integridad",
+            "text": "Canal de integridad"
+          }
+        },
+        {
+          "id": "menu-item-somos-falabella",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "somos-falabella",
+            "text": "Somos Falabella"
+          }
+        }
+      ]
+    }
+  },
+  "rich-text#footer_2--3": {
+    "props": {
+      "text": "**Únete a nuestros programas**"
+    }
+  },
+  "menu#footer_2--3": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-club-deco",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "club-deco",
+            "text": "Club Deco"
+          }
+        },
+        {
+          "id": "menu-item-club-novios",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "club-novios",
+            "text": "Club Novios"
+          }
+        },
+        {
+          "id": "menu-item-club-bebés",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "club-bebés",
+            "text": "Club Bebés"
+          }
+        }
+      ]
+    }
+  },
+  "rich-text#footer_2--4": {
+    "props": {
+      "text": "**Nuestras empresas**"
+    }
+  },
+  "menu#footer_2--4": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-banco-falabella",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "banco-falabella",
+            "text": "Banco Falabella"
+          }
+        },
+        {
+          "id": "menu-item-seguros-falabella",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "seguros-falabella",
+            "text": "Seguros Falabella"
+          }
+        },
+        {
+          "id": "menu-item-sodimac",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "sodimac",
+            "text": "Sodimac"
+          }
+        },
+        {
+          "id": "menu-item-linio",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "linio",
+            "text": "Linio"
+          }
+        },
+        {
+          "id": "menu-item-cmr-puntos",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "cmr-puntos",
+            "text": "CMR Puntos"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#banner_4": {
+      "children": [
+        "link#banner_4--1"
+      ],
+      "props": {
+        "blockClass": "banner_4"
+      }
+    },
+    "link#banner_4--1": {
+      "children": ["image#banner_4--1"],
+      "props": {
+        "href": "/"
+      }
+    },
+    "image#banner_4--1": {
+      "props": {
+        "src": "assets/img/home_banner/Banner_MediosdePago_Desk.png"
+      }}
+  }
+  

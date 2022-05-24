@@ -1,0 +1,63 @@
+{
+  "flex-layout.row#footer_3--1": {
+    "children": ["social-networks#footer_3", "link#footer_3--1"],
+    "props": {
+      "blockClass": "footer_3--1"
+    }
+  },
+  "flex-layout.row#footer_3--2": {
+    "children": ["flex-layout.col#footer_3--1", "flex-layout.col#footer_3--2"],
+    "props": {
+      "blockClass": "footer_3--2"
+    }
+  },
+  "flex-layout.col#footer_3--1": {
+    "children": ["rich-text#footer_3--1", "rich-text#footer_3--2"],
+    "props": {
+      "verticalAlign": "top"
+    }
+  },
+  "flex-layout.col#footer_3--2": {
+    "children": ["flex-layout.row#footer_3--3"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.row#footer_3--3": {
+    "children": ["image#footer_3", "link#footer_3--2"]
+  },
+  "social-networks#footer_3": {
+    "props": {
+      "socialNetworks": [
+        { "url": "http://facebook.com/", "name": "Facebook" },
+        { "url": "http://twitter.com/", "name": "Twitter" },
+        { "url": "http://instagram.com/", "name": "Instagram" }
+      ]
+    }
+  },
+  "link#footer_3--1": {
+    "props": {
+      "href": "/",
+      "label": "Suscríbete y entérate de nuestras ofertas y productos"
+    }
+  },
+  "rich-text#footer_3--1": {
+    "props": {
+      "text": "*©TODOS LOS DERECHOS RESERVADOS*"
+    }
+  },
+  "rich-text#footer_3--2": {
+    "props": {
+      "text": "Falabella de Colombia S.A. Calle 99 11A-32 Bogotá Colombia NIT: 900.017.447-8 Teléfono: Bogotá 5878002 Mail: servicioalcliente@falabella.com.co"
+    }
+  },
+  "image#footer_3": {
+    "props": { "src": "assets/img/footer/norton.svg", "width": "100px" }
+  },
+  "link#footer_3--2": {
+    "props": {
+      "href": "/",
+      "label": "COMPRA 100% SEGURA"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "flex-layout.row#footer_1": {
+    "children": [
+      "flex-layout.col#footer_1--1",
+      "flex-layout.col#footer_1--2",
+      "flex-layout.col#footer_1--3",
+      "flex-layout.col#footer_1--4"
+    ],
+    "props": {
+      "blockClass": "footer_1"
+    }
+  },
+  "flex-layout.col#footer_1--1": {
+    "children": ["rich-text#footer_1--1", "rich-text#footer_1--1.1"],
+    "props": {
+      "verticalAlign": "top"
+    }
+  },
+  "flex-layout.col#footer_1--2": {
+    "children": ["rich-text#footer_1--2", "rich-text#footer_1--2.1"],
+    "props": {
+      "verticalAlign": "top"
+    }
+  },
+  "flex-layout.col#footer_1--3": {
+    "children": ["rich-text#footer_1--3", "rich-text#footer_1--3.1"],
+    "props": {
+      "verticalAlign": "top"
+    }
+  },
+  "flex-layout.col#footer_1--4": {
+    "children": ["rich-text#footer_1--4", "rich-text#footer_1--4.1", "rich-text#footer_1--4.2"],
+    "props": {
+      "verticalAlign": "top"
+    }
+  },
+  "rich-text#footer_1--1": {
+    "props": {
+      "text": "Mes del Bebé",
+      "blockClass": "rich-text_footer_1--1"
+    }
+  },
+  "rich-text#footer_1--1.1": {
+    "props": {
+      "text": "Sabemos que la llegada del nuevo integrante de la familia le hace especial ilusión a todos en casa, por eso en Falabella descubre en nuestro especial de Mundo bebé, donde podrás encontrar todo eso que necesita tu bebé para que tenga la comodidad y seguridad que necesita para crecer y divertirse. Podrás encontrar desde teteros, ropa para bebé, extractores de leche materna, juguetes e incluso también todo lo que necesitas para poder llevar a tu bebé a todas partes y pasear en familia como sillas de carro, coches para bebé.",
+      "blockClass": "rich-text_footer_1--1-1"
+    }
+  },
+  "rich-text#footer_1--2": {
+    "props": {
+      "text": "Para quienes aman vivir a pedalazos",
+      "blockClass": "rich-text_footer_1--2"
+    }
+  },
+  "rich-text#footer_1--2.1": {
+    "props": {
+      "text": "Si te apasiona el mundo del ciclismo en Falabella podrás encontrar todo lo que necesitas para practicar tu deporte favorito, desde vestuario para ciclismo, elementos de seguridad como cascos para bicicleta y luces para bicicleta, también podrás encontrar la bici que necesitas podrás encontrar bicicletas de montaña, bicicletas de ruta, bicicletas urbanas, bicicletas eléctricas y mucho más. Y si aún tienes dudas no lo pienses más, anímate a unirte a la idea de movilizarte de una manera rápida, ecológica y diferente.",
+      "blockClass": "rich-text_footer_1--2-1"
+    }
+  },
+  "rich-text#footer_1--3": {
+    "props": {
+      "text": "Poltronas: cientos de opciones",
+      "blockClass": "rich-text_footer_1--3"
+    }
+  },
+  "rich-text#footer_1--3.1": {
+    "props": {
+      "text": "Si estás buscando muebles para darle un toque único a los espacios de tu hogar, las poltronas son una increíble opción; al ser un elemento que se vuelve un eje para planear como quieres que luzcan tus espacios te facilitarán escoger como quieres decorarlos y complementarlos con mesas de centro o bibliotecas. En Falabella podrás encontrar una gran variedad en colores, diseños con gran calidad para que crees ese espacio perfecto que brinde a ti tranquilidad y que invite a todos a compartir en tu hogar.",
+      "blockClass": "rich-text_footer_1--3-1"
+    }
+  },
+  "rich-text#footer_1--4": {
+    "props": {
+      "text": "Blackout en Falabella",
+      "blockClass": "rich-text_footer_1--4"
+    }
+  },
+  "rich-text#footer_1--4.1": {
+    "props": {
+      "text": "Prepárate porque del 24 al 27 de mayo podrás disfrutar de Blackout,  un evento espectacular donde podrás aprovechar ofertas increíbles en tus categorías y marcas preferidas; en tecnología: televisores y computadores. Prepárate para descubrir sorprendentes descuentos en Smartwatch, audífonos y celulares con la última tecnología y de tus marcas preferidas Xiaomi, Huawei, Samsung y muchas otras más.",
+      "blockClass": "rich-text_footer_1--4-1"
+    }
+  },
+  "rich-text#footer_1--4.2": {
+    "props": {
+      "text": "Así que reserva las fechas en tu calendario y prepárate para estrenar con Falabella en Blackout, porque también podrás descubrir increíbles ofertas en categorías como ropa para mujer y para hombre, tenis para mujer y tenis para hombre, accesorios y muchas otras más donde tendrás una oportunidad inmejorable para crear tu nuevo look.",
+      "blockClass": "rich-text_footer_1--4-2"
+    }
+  }
+}

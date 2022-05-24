@@ -1,0 +1,26 @@
+.flexRow--banner_2 {
+    transform: translateY(-160px);
+    padding: 25px;
+}
+
+.flexRow--footer_0, 
+.flexRow--footer_1 {
+    background-color: #f6f6f6;
+}
+
+.flexRow--footer_2 {
+    background-color: #222;
+}
+
+.flexRow--footer_3--1, 
+.flexRow--footer_3--2 {
+    background-color: #181818;
+}
+
+.flexRow--productlist_1{
+    opacity: 0;
+}
+
+.flexRow--productlist_1:hover{
+    opacity: 100;
+}

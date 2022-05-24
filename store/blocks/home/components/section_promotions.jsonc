@@ -1,0 +1,58 @@
+{
+  "flex-layout.row#promotions--1": {
+    "children": [
+      "flex-layout.col#promotions--1",
+      "flex-layout.col#promotions--2"
+    ],
+    "props": {
+      "blockClass": "promotions--1"
+    }
+  },
+  "flex-layout.row#promotions--2": {
+    "children": [
+        "link#promotions--3"
+    ],
+    "props": {
+      "blockClass": "promotions--2"
+    }
+  },
+  "flex-layout.col#promotions--1": {
+    "children": ["link#promotions--1"]
+  },
+  "flex-layout.col#promotions--2": {
+    "children": ["link#promotions--2"]
+  },
+  "link#promotions--1": {
+    "children": ["image#promotions--1"],
+    "props": {
+      "href": "#"
+    }
+  },
+  "image#promotions--1": {
+    "props": {
+      "src": "assets/img/home_promotions/1.png"
+    }
+  },
+  "link#promotions--2": {
+    "children": ["image#promotions--2"],
+    "props": {
+      "href": "#"
+    }
+  },
+  "image#promotions--2": {
+    "props": {
+      "src": "assets/img/home_promotions/2.png"
+    }
+  },
+  "link#promotions--3": {
+    "children": ["image#promotions--3"],
+    "props": {
+      "href": "#"
+    }
+  },
+  "image#promotions--3": {
+    "props": {
+      "src": "assets/img/home_promotions/3.png"
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "slider-layout#newproducts": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1
+      },
+      "blockClass": "newproducts",
+      "fullWidth": false
+    },
+    "children": [
+      "flex-layout.row#newproducts--1",
+      "flex-layout.row#newproducts--2"
+    ]
+  },
+  "rich-text#newproducts": {
+      "props": {
+          "text": "Nuevos Productos",
+          "blockClass": "newproducts"
+      }
+  },
+  "flex-layout.row#newproducts--1": {
+    "children": [
+      "flex-layout.col#newproducts--1",
+      "flex-layout.col#newproducts--2"
+    ]
+  },
+  "flex-layout.row#newproducts--2": {
+    "children": [
+      "flex-layout.col#newproducts--3",
+      "flex-layout.col#newproducts--4"
+    ]
+  },
+
+  "flex-layout.col#newproducts--1": {
+    "children": ["link#newproducts--1"]
+  },
+  "flex-layout.col#newproducts--2": {
+    "children": ["flex-layout.row#newproducts--3"]
+  },
+  "flex-layout.row#newproducts--3": {
+    "children": ["link#newproducts--2", "link#newproducts--3"]
+  },
+
+  "link#newproducts--1": {
+    "children": ["image#newproducts--1"],
+    "props": {
+      "href": "#"
+    }
+  },
+  "image#newproducts--1": {
+    "props": {
+      "src": "assets/img/home_newproducts/1.png"
+    }
+  },
+  "link#newproducts--2": {
+    "children": ["image#newproducts--2"],
+    "props": {
+      "href": "#"
+    }
+  },
+  "image#newproducts--2": {
+    "props": {
+      "src": "assets/img/home_newproducts/2.png"
+    }
+  },
+  "link#newproducts--3": {
+    "children": ["image#newproducts--3"],
+    "props": {
+      "href": "#"
+    }
+  },
+  "image#newproducts--3": {
+    "props": {
+      "src": "assets/img/home_newproducts/3.png"
+    }
+  },
+
+  "flex-layout.col#newproducts--3": {
+    "children": ["link#newproducts--4"]
+  },
+  "flex-layout.col#newproducts--4": {
+    "children": ["flex-layout.row#newproducts--4"]
+  },
+  "flex-layout.row#newproducts--4": {
+    "children": ["link#newproducts--5", "link#newproducts--6"]
+  },
+
+  "link#newproducts--4": {
+    "children": ["image#newproducts--4"],
+    "props": {
+      "href": "#"
+    }
+  },
+  "image#newproducts--4": {
+    "props": {
+      "src": "assets/img/home_newproducts/4.png"
+    }
+  },
+  "link#newproducts--5": {
+    "children": ["image#newproducts--5"],
+    "props": {
+      "href": "#"
+    }
+  },
+  "image#newproducts--5": {
+    "props": {
+      "src": "assets/img/home_newproducts/5.png"
+    }
+  },
+  "link#newproducts--6": {
+    "children": ["image#newproducts--6"],
+    "props": {
+      "href": "#"
+    }
+  },
+  "image#newproducts--6": {
+    "props": {
+      "src": "assets/img/home_newproducts/6.png"
+    }
+  }
+}

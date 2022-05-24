@@ -10,3 +10,8 @@
 .sliderLayoutContainer--home_slider_principal{
     transform: translateY(-175px)
 }
+
+.sliderLayoutContainer--productlist_1{
+    transform: translate(0.9);
+    margin-bottom: 30px;
+}

@@ -1,3 +1,14 @@
 .wrapper--titulo {
     color: red;
 }
+
+.paragraph--rich-text_footer_1--1-1 {
+    font-size: 14px
+}
+
+.wrapper--productlist_1 , .wrapper--newproducts, .wrapper--special-offers{
+    color: #323c47;
+    transform: translate(0px, 20px);
+    font-size: 26px;
+    margin-left: 32px;
+}

@@ -1,4 +1,15 @@
 {
+  "flex-layout.row#banner_2": {
+    "children": [
+      "link#banner_2--1",
+      "link#banner_2--2",
+      "link#banner_2--3",
+      "link#banner_2--4"
+    ],
+    "props": {
+      "blockClass": "banner_2"
+    }
+  },
   "link#banner_2--1": {
     "children": ["image#banner_2--1"],
     "props": {
@@ -26,22 +37,22 @@
 
   "image#banner_2--1": {
     "props": {
-      "src": "assets/img/home_banner_2/Holding_banner_001.png"
+      "src": "assets/img/home_banner/Holding_banner_001.png"
     }
   },
   "image#banner_2--2": {
     "props": {
-      "src": "assets/img/home_banner_2/Holding_banner_002.png"
+      "src": "assets/img/home_banner/Holding_banner_002.png"
     }
   },
   "image#banner_2--3": {
     "props": {
-      "src": "assets/img/home_banner_2/Holding_banner_003.png"
+      "src": "assets/img/home_banner/Holding_banner_003.png"
     }
   },
   "image#banner_2--4": {
     "props": {
-      "src": "assets/img/home_banner_2/Holding_banner_004.png"
+      "src": "assets/img/home_banner/Holding_banner_004.png"
     }
   }
 }

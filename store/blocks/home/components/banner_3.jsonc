@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#banner_3": {
+      "children": [
+        "link#banner_3--1"
+      ],
+      "props": {
+        "blockClass": "banner_3"
+      }
+    },
+    "link#banner_3--1": {
+      "children": ["image#banner_3--1"],
+      "props": {
+        "href": "/"
+      }
+    },
+    "image#banner_3--1": {
+      "props": {
+        "src": "assets/img/home_banner/Banner_aviso_desk.png"
+      }}
+  }

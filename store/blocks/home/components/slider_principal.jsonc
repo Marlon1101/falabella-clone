@@ -1,4 +1,25 @@
 {
+  "slider-layout#home_slider_principal": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "blockClass": "home_slider_principal"
+    },
+    "children": [
+      "image#home_slider_principal--one",
+      "image#home_slider_principal--two",
+      "image#home_slider_principal--three",
+      "image#home_slider_principal--four",
+      "image#home_slider_principal--five"
+    ]
+  },
+
   "image#home_slider_principal--one": {
     "props": {
       "src": "assets/img/slider_home_principal/V1_J11_Neveras_bespoke_DESK.png"

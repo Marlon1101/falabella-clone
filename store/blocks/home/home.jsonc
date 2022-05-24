@@ -2,39 +2,21 @@
   "store.home": {
     "blocks": [
       "slider-layout#home_slider_principal",
-      "flex-layout.row#banner_2"
+      "flex-layout.row#banner_2",
+      "flex-layout.row#categories",
+      "flex-layout.row#promotions--1",
+      "flex-layout.row#promotions--2",
+      "rich-text#newproducts",
+      "slider-layout#newproducts",
+      "flex-layout.row#special-offers--0",
+      "flex-layout.row#special-offers--1",
+      "flex-layout.row#special-offers--2",
+      "flex-layout.row#special-offers--3",
+      "flex-layout.row#special-offers--4",
+      "flex-layout.row#banner_3",
+      "flex-layout.row#special-offers_2",
+      "flex-layout.row#banner_4",
+      "list-context.product-list#productlist_1"
     ]
-  },
-
-  "slider-layout#home_slider_principal": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1
-      },
-      "infinite": true,
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": true
-      },
-      "blockClass": "home_slider_principal"
-    },
-    "children": [
-      "image#home_slider_principal--one",
-      "image#home_slider_principal--two",
-      "image#home_slider_principal--three",
-      "image#home_slider_principal--four",
-      "image#home_slider_principal--five"
-    ]
-  },
-  "flex-layout.row#banner_2": {
-    "children": [
-      "link#banner_2--1",
-      "link#banner_2--2",
-      "link#banner_2--3",
-      "link#banner_2--4"
-    ],
-    "props": {
-      "blockClass": "banner_2"
-    }
   }
 }

@@ -1,0 +1,58 @@
+{
+  "flex-layout.row#categories": {
+    "children": [
+      "link#categories--1",
+      "link#categories--2",
+      "link#categories--3",
+      "link#categories--4"
+    ],
+    "props": {
+      "blockClass": "categories"
+    }
+  },
+  "link#categories--1": {
+    "children": ["image#categories--1"],
+    "props": {
+      "href": "#"
+    }
+  },
+  "link#categories--2": {
+    "children": ["image#categories--2"],
+    "props": {
+      "href": "#"
+    }
+  },
+  "link#categories--3": {
+    "children": ["image#categories--3"],
+    "props": {
+      "href": "#"
+    }
+  },
+  "link#categories--4": {
+    "children": ["image#categories--4"],
+    "props": {
+      "href": "#"
+    }
+  },
+
+  "image#categories--1": {
+    "props": {
+      "src": "assets/img/home_categories/1.png"
+    }
+  },
+  "image#categories--2": {
+    "props": {
+      "src": "assets/img/home_categories/2.png"
+    }
+  },
+  "image#categories--3": {
+    "props": {
+      "src": "assets/img/home_categories/3.png"
+    }
+  },
+  "image#categories--4": {
+    "props": {
+      "src": "assets/img/home_categories/4.png"
+    }
+  }
+}

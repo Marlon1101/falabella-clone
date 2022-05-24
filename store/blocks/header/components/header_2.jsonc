@@ -51,9 +51,12 @@
   "search-bar": {
     "props": {
       "displayMode": "search-and-clear-buttons",
-      "placeholder": "¿Qué buscas?"
+      "placeholder": "¿Qué buscas?",
+      "openAutocompleteOnFocus": true
     }
   },
+
+
   /* "menu#drawer": {
     "children": [],
     "props": {
