@@ -55,3 +55,10 @@
     transform: translateY(-100px);
 }
 
+.flexRow--minicart-block{
+    transform: translateY(-100px)
+}
+
+.flexRow--product{
+    transform: translate(-40px, -100px) scale(0.9);
+}

@@ -1,15 +1,47 @@
 {
   "modal-trigger#login": {
-    "children": ["rich-text#login", "modal-layout#login"]
-  },
-  "rich-text#login": {
+    "children": ["image#login", "modal-layout#login"],
     "props": {
-      "text": "login"
+      "blockClass": "login"
+    }
+  },
+  "image#login": {
+    "props": {
+      "src": "assets/img/home_header/header-account.svg",
+      "blockClass": "login"
     }
   },
   "modal-layout#login": {
-      "children": [
-          "login-content"
-      ]
+    "children": ["flex-layout.row#login-1", "flex-layout.row#login-2"]
+  },
+
+  "flex-layout.row#login-1": {
+    "children": ["flex-layout.col#login"]
+  },
+  "flex-layout.col#login": {
+    "children": ["rich-text#login-title", "rich-text#login-description"],
+    "props": {
+    }
+  },
+  "flex-layout.row#login-2": {
+    "children": ["login-content"]
+  },
+  "login-content": {
+    "props": {
+      "defaultOption": 1,
+      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "passwordPlaceholder": "Ingresa tu contraseña"
+      
+    }
+  },
+  "rich-text#login-title": {
+    "props": {
+      "text": "**Inicia sesión**"
+    }
+  },
+  "rich-text#login-description": {
+    "props": {
+      "text": "Compra más rápido y revisa los detalles de tus compras"
+    }
   }
 }

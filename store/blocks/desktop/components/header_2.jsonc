@@ -3,10 +3,9 @@
     "children": [
       "link#background-logo",
       "drawer",
-      /* "drawer#header--menu", */
-      "search-bar",
+      "search-bar#header_2",
       "modal-trigger#login",
-      "minicart.v2"
+      "minicart.v2#header"
     ],
     "props": {
       "fullWidth": true,
@@ -14,23 +13,9 @@
     }
   },
 
-  "drawer": {
-    "children": ["menu#drawer"]
-  },
-
-  "menu#drawer": {
-    "children": [
-      "menu-item#category-apparel"
-    ],
-    "props": {
-      "orientation": "vertical"
-    }
-  },
-
-
   "link#background-logo": {
     "props": {
-      "href": "#",
+      "href": "/",
       "blockClass": "background-color"
     },
     "children": ["logo"]
@@ -44,23 +29,19 @@
       "blockClass": "logo-falabella"
     }
   },
-  "drawer#header--menu": {
-    "children": [/* "menu#drawer" */ "category-menu"]
-  },
 
-  "search-bar": {
+  "search-bar#header_2": {
+    "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "displayMode": "search-and-clear-buttons",
       "placeholder": "¿Qué buscas?",
       "openAutocompleteOnFocus": true
     }
-  }
-
-
-  /* "menu#drawer": {
-    "children": [],
+  },
+  "minicart.v2#header": {
     "props": {
-      "orientation": "vertical"
+      "variation": "link",
+      "linkVariationUrl": "/basket"
     }
-  }, */
+  }
 }

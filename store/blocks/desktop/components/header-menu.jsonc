@@ -1,101 +1,42 @@
 {
-    "vtex.menu@2.x:menu#category-menu": {
-      "props": {
-        "experimentalOptimizeRendering": true
-      },
-      "children": [
-        "menu-item#category-apparel"
-      ]
-    },
-    "menu-item#category-apparel": {
-      "props": {
-        "id": "menu-item-category-apparel",
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/apparel---accessories/",
-          "noFollow": false,
-          "tagTitle": "Apparel & Accessories",
-          "text": "Apparel & Accessories"
-        }
-      },
-      "blocks": [
-        "vtex.menu@2.x:submenu#category-apparel"
-      ]
-    },
-    "vtex.menu@2.x:submenu#category-apparel": {
-      "props": {
-        "width": "auto"
-      },
-      "children": [
-        "vtex.menu@2.x:menu#category-apparel"
-      ]
-    },
-    "vtex.menu@2.x:menu#category-apparel": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "menu-item#category-apparel-clothing",
-        "menu-item#category-apparel-accessories",
-        "menu-item#category-apparel-eyeglasses"
-      ]
-    },
-    "menu-item#category-apparel-clothing": {
-      "props": {
-        "id": "menu-item-category-apparel-clothing",
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/apparel---accessories/clothing/",
-          "noFollow": false,
-          "tagTitle": "Clothing",
-          "text": "Clothing"
-        }
-      }
-    },
-    "menu-item#category-apparel-accessories": {
-      "props": {
-        "id": "menu-item-category-apparel-accessories",
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/apparel---accessories/accessories/",
-          "noFollow": false,
-          "tagTitle": "Accessories",
-          "text": "Accessories"
-        }
-      }
-    },
-    "menu-item#category-apparel-eyeglasses": {
-      "props": {
-        "id": "menu-item-category-apparel-eyeglasses",
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/apparel---accessories/eyeglasses/",
-          "noFollow": false,
-          "tagTitle": "Eyeglasses",
-          "text": "Eyeglasses"
-        }
-      }
-    },
-    "menu-item#contact-us": {
-      "props": {
-        "id": "menu-item-contact-us",
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/contact-us",
-          "noFollow": true,
-          "tagTitle": "Contact Us",
-          "text": "Contact Us"
-        }
-      }
+  "drawer": {
+    "children": ["mega-menu"],
+    "blocks": ["drawer-header#my-drawer"]
+  },
+  "mega-menu": {
+    "props": {
+      "orientation": "vertical",
+      "title": "Categorías"
+    }
+  },
+  "drawer-header#my-drawer": {
+    "children": ["flex-layout.row#drawer-header"]
+  },
+  "flex-layout.row#drawer-header": {
+    "children": [
+      "flex-layout.col#mega-menu-go-back-btn"
+    ],
+    "props": {
+      "blockClass": "drawer-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#drawer-close-button": {
+    "children": ["drawer-close-button"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#mega-menu-go-back-btn": {
+    "children": ["mega-menu-go-back-btn"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "paddingLeft": 4
     }
   }
+}
