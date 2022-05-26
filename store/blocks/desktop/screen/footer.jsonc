@@ -12,23 +12,18 @@
     ]
   },
   "flex-layout.row#footer_0": {
-    "children": ["image#footer_0", "rich-text#footer_0"],
+    "children": ["rich-text#footer_0"],
     "props": {
+      "horizontalAlign": "center",
       "blockClass": "footer_0"
-    }
-  },
-
-  "image#footer_0": {
-    "props": {
-      "src": "assets/img/footer/Check.png",
-      "blockClass": "image_footer_0"
     }
   },
   "rich-text#footer_0": {
     "props": {
       "text": "Encuéntralo en **Falabella.com**",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "blockClass": "footer_0"
     }
   }
 }

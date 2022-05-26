@@ -2,13 +2,42 @@
     color: red;
 }
 
-.paragraph--rich-text_footer_1--1-1 {
-    font-size: 14px
+.paragraph--rich-text_footer_1--1-1,
+.paragraph--rich-text_footer_1--2-1,
+.paragraph--rich-text_footer_1--3-1,
+.paragraph--rich-text_footer_1--4-1,
+.paragraph--rich-text_footer_1--4-2 {
+    font-size: 14px;
+    color: #888888;
 }
 
-.wrapper--productlist_1 , .wrapper--newproducts, .wrapper--special-offers{
+.paragraph--rich-text_footer_1--1,
+.paragraph--rich-text_footer_1--2,
+.paragraph--rich-text_footer_1--3,
+.paragraph--rich-text_footer_1--4,
+.paragraph--rich-text_footer_1--4 {
+    font-size: 16px;
+    color: #4A4A4A
+}
+
+.paragraph--footer_2--1,
+.paragraph--footer_2--2,
+.paragraph--footer_2--3,
+.paragraph--footer_2--4 {
+    margin-left: 24px;
+    font-size: 16px;
+    color: #BBBBBB;
+}
+
+.wrapper--productlist_1,
+.wrapper--newproducts,
+.wrapper--special-offers {
     color: #323c47;
     transform: translate(0px, 20px);
     font-size: 26px;
     margin-left: 32px;
+}
+
+.wrapper--footer_0 {
+    font-size: 22px;
 }

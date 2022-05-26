@@ -54,7 +54,7 @@
       "placeholder": "¿Qué buscas?",
       "openAutocompleteOnFocus": true
     }
-  },
+  }
 
 
   /* "menu#drawer": {
@@ -63,10 +63,4 @@
       "orientation": "vertical"
     }
   }, */
-  "minicart.v2": {
-    "props": {
-      "variation": "link",
-      "linkVariationUrl": "basket"
-    }
-  }
 }

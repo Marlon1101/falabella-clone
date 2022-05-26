@@ -1,0 +1,14 @@
+.styledLink--footer_2--1,
+.styledLink--footer_2--2,
+.styledLink--footer_2--3,
+.styledLink--footer_2--4{
+    font-size: 14px;
+    color: #888888;
+}
+
+.styledLinkContainer--footer_2--1,
+.styledLinkContainer--footer_2--2,
+.styledLinkContainer--footer_2--3,
+.styledLinkContainer--footer_2--4{
+    margin-bottom: 10px;
+}

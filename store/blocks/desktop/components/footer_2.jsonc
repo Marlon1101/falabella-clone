@@ -2,7 +2,7 @@
   "flex-layout.row#footer_2": {
     "children": [
       "flex-layout.col#footer_2--1",
-      "flex-layout.col#footer_2--3",
+      "flex-layout.col#footer_2--2",
       "flex-layout.col#footer_2--3",
       "flex-layout.col#footer_2--4"
     ],
@@ -13,7 +13,8 @@
   "flex-layout.col#footer_2--1": {
     "children": ["rich-text#footer_2--1", "menu#footer_2--1"],
     "props": {
-      "verticalAlign": "top"
+      "verticalAlign": "top",
+      "horizontalAlign": "left"
     }
   },
   "flex-layout.col#footer_2--2": {
@@ -36,7 +37,8 @@
   },
   "rich-text#footer_2--1": {
     "props": {
-      "text": "**Te ayudamos**"
+      "text": "**Te ayudamos**",
+      "blockClass": "footer_2--1"
     }
   },
   "menu#footer_2--1": {
@@ -205,12 +207,14 @@
   },
   "rich-text#footer_2--2": {
     "props": {
-      "text": "**Sé parte de Falabella.com**"
+      "text": "**Sé parte de Falabella.com**",
+      "blockClass": "footer_2--2"
     }
   },
   "menu#footer_2--2": {
     "props": {
       "orientation": "vertical",
+      "blockClass": "footer_2--2",
       "items": [
         {
           "id": "menu-item-nuestra-empresa",
@@ -301,12 +305,14 @@
   },
   "rich-text#footer_2--3": {
     "props": {
-      "text": "**Únete a nuestros programas**"
+      "text": "**Únete a nuestros programas**",
+      "blockClass": "footer_2--3"
     }
   },
   "menu#footer_2--3": {
     "props": {
       "orientation": "vertical",
+      "blockClass": "footer_2--3",
       "items": [
         {
           "id": "menu-item-club-deco",
@@ -349,12 +355,14 @@
   },
   "rich-text#footer_2--4": {
     "props": {
-      "text": "**Nuestras empresas**"
+      "text": "**Nuestras empresas**",
+      "blockClass": "footer_2--4"
     }
   },
   "menu#footer_2--4": {
     "props": {
       "orientation": "vertical",
+      "blockClass": "footer_2--4",
       "items": [
         {
           "id": "menu-item-banco-falabella",

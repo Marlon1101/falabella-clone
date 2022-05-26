@@ -13,25 +13,33 @@
   "flex-layout.col#footer_1--1": {
     "children": ["rich-text#footer_1--1", "rich-text#footer_1--1.1"],
     "props": {
-      "verticalAlign": "top"
+      "verticalAlign": "top",
+      "paddingLeft": 7,
+      "paddingRight": 7
     }
   },
   "flex-layout.col#footer_1--2": {
     "children": ["rich-text#footer_1--2", "rich-text#footer_1--2.1"],
     "props": {
-      "verticalAlign": "top"
+      "verticalAlign": "top",
+      "paddingLeft": 7,
+      "paddingRight": 7
     }
   },
   "flex-layout.col#footer_1--3": {
     "children": ["rich-text#footer_1--3", "rich-text#footer_1--3.1"],
     "props": {
-      "verticalAlign": "top"
+      "verticalAlign": "top",
+      "paddingLeft": 7,
+      "paddingRight": 7
     }
   },
   "flex-layout.col#footer_1--4": {
     "children": ["rich-text#footer_1--4", "rich-text#footer_1--4.1", "rich-text#footer_1--4.2"],
     "props": {
-      "verticalAlign": "top"
+      "verticalAlign": "top",
+      "paddingLeft": 7,
+      "paddingRight": 7
     }
   },
   "rich-text#footer_1--1": {

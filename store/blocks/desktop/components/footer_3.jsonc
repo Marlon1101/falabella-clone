@@ -32,32 +32,41 @@
         { "url": "http://facebook.com/", "name": "Facebook" },
         { "url": "http://twitter.com/", "name": "Twitter" },
         { "url": "http://instagram.com/", "name": "Instagram" }
-      ]
+      ],
+      "blockClass": "footer_3"
     }
   },
   "link#footer_3--1": {
     "props": {
       "href": "/",
-      "label": "Suscríbete y entérate de nuestras ofertas y productos"
+      "label": "Suscríbete y entérate de nuestras ofertas y productos",
+      "blockClass": "footer_3--1"
     }
   },
   "rich-text#footer_3--1": {
     "props": {
-      "text": "*©TODOS LOS DERECHOS RESERVADOS*"
+      "text": "*©TODOS LOS DERECHOS RESERVADOS*",
+      "blockClass": "footer_3--1"
     }
   },
   "rich-text#footer_3--2": {
     "props": {
-      "text": "Falabella de Colombia S.A. Calle 99 11A-32 Bogotá Colombia NIT: 900.017.447-8 Teléfono: Bogotá 5878002 Mail: servicioalcliente@falabella.com.co"
+      "text": "Falabella de Colombia S.A. Calle 99 11A-32 Bogotá Colombia NIT: 900.017.447-8 Teléfono: Bogotá 5878002 Mail: servicioalcliente@falabella.com.co",
+      "blockClass": "footer_3--2"
     }
   },
   "image#footer_3": {
-    "props": { "src": "assets/img/footer/norton.svg", "width": "100px" }
+    "props": {
+      "src": "assets/img/footer/norton.svg",
+      "width": "100px",
+      "blockClass": "footer_3"
+    }
   },
   "link#footer_3--2": {
     "props": {
       "href": "/",
-      "label": "COMPRA 100% SEGURA"
+      "label": "COMPRA 100% SEGURA",
+      "blockClass": "footer_3--2"
     }
   }
 }

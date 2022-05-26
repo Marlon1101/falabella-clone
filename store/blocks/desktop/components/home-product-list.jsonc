@@ -12,7 +12,7 @@
   "product-summary.shelf#productlist_1": {
     "children": [
       "product-summary-image",
-      "product-brand",
+      "vtex.store-components:product-brand",
       "product-summary-name",
       "product-summary-space",
       "product-summary-price",
@@ -31,12 +31,11 @@
       "blockClass": "productlist_1"
     }
   },
-  "product-summary-image": {},
-  "product-brand": {},
-  "product-summary-name": {},
-  "product-rating-inline": {},
-  "product-summary-space": {},
-  "product-summary-price": {},
+  "product-summary-name": {
+    "props": {
+      "tag": "h3"
+    }
+  },
   "flex-layout.row#productlist_1": {
       "children": ["add-to-cart-button#productlist_1"],
       "props": {
