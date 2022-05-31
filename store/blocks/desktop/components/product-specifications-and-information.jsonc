@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#product_specifications-and-information": {
+    "title": "Especificaciones e información del producto",
+    "children": [
+      "flex-layout.col#product_specifications",
+      "flex-layout.col#product_information"
+    ]
+  },
+  "flex-layout.col#product_specifications": {
+    "children": ["product-specifications"]
+  },
+  "flex-layout.col#product_information": {
+    "children": ["product-description"]
+  }
+}

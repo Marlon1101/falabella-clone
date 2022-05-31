@@ -1,0 +1,97 @@
+{
+  "flex-layout.row#product_info": {
+    "title": "Información general de PDP",
+    "children": [
+      "flex-layout.col#product_info--image",
+      "flex-layout.col#product_info--data"
+    ],
+    "props": {
+      "blockClass": "product_info"
+    }
+  },
+  "flex-layout.col#product_info--image": {
+    "title": "Imágenes de producto",
+    "children": ["product-images#product_info--image"]
+  },
+  "product-images#product_info--image": {
+    "title": "Imágenes",
+    "props": {
+      "aspectRatio": "1:1",
+      "thumbnailsOrientation": "horizontal"
+    }
+  },
+  "flex-layout.col#product_info--data":{
+    "title": "Data de producto",
+    "children": [
+      "flex-layout.row#product_info--data-1",
+      "flex-layout.row#product_info--data-2"
+    ],
+    "props": {
+      "blockClass": "product_info--data"
+    }
+  },
+  "flex-layout.row#product_info--data-1":{
+    "title": "product_info--data-1",
+    "children": [
+      "flex-layout.col#product_info--data-brand-and-name"
+    ]
+  },
+  "flex-layout.col#product_info--data-brand-and-name": {
+    "title": "product_info--data-brand-and-name",
+    "children": [
+      "vtex.store-components:product-brand",
+      "vtex.store-components:product-name"
+    ]
+  },
+  "flex-layout.row#product_info--data-2":{
+    "title": "product_info--data-2",
+    "children": [
+      "flex-layout.col#product_info--data-1",
+      "flex-layout.col#product_info--data-2"
+    ]
+  },
+  "flex-layout.col#product_info--data-1": {
+    "title": "Data de producto columna 1",
+    "children": [
+      "product-rating-inline",
+      "sku-selector",
+      "product-description",
+      "modal-trigger#shipping-simulator"
+    ]
+  },
+  "flex-layout.col#product_info--data-2": {
+    "title": "Data de producto columna 2",
+    "children": [
+      "product-price",
+      "add-to-cart-button"
+    ]
+  },
+  "modal-trigger#shipping-simulator": {
+    "children": [
+      "rich-text#shipping-simulator",
+      "modal-layout#shipping-simulator"
+    ]
+  },
+  "rich-text#shipping-simulator": {
+    "props": {
+      "text": "Revisar disponibilidad"
+    }
+  },
+  "modal-layout#shipping-simulator": {
+    "children": ["modal-header#shipping-simulator", "flex-layout.row#shipping-simulator"],
+    "props": {
+      "blockClass": "shipping-simulator"
+    }
+  },
+  "modal-header#shipping-simulator":{
+    "props": {
+      "showCloseButton": true
+    }
+  },
+  "flex-layout.row#shipping-simulator": {
+    "children": ["shipping-simulator"],
+    "props": {
+      "blockClass": "shipping-simulator"
+    }
+  }
+}

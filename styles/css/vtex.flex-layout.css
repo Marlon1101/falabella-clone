@@ -59,6 +59,18 @@
     transform: translateY(-100px)
 }
 
-.flexRow--product{
-    transform: translate(-40px, -100px) scale(0.9);
+.flexRow--product_breadcrumb{
+    transform: translate(-40px, -160px) scale(0.9);
+} 
+
+.flexRow--product_info{
+    transform: translate(-40px, -160px) scale(0.9);
+}
+
+.flexRowContent--shipping-simulator{
+    padding: 40px
+}
+
+.flexColChild--product_info--data{
+    height: 10% !important;
 }

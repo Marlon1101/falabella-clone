@@ -1,0 +1,12 @@
+{
+    "flex-layout.row#product_comments": {
+      "title": "Comentarios del producto",
+      "children": [
+        "flex-layout.col#product_comments"
+      ]
+    },
+    "flex-layout.col#product_comments": {
+      "children": ["product-reviews"]
+    }
+  }
+  
