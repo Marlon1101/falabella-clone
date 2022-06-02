@@ -16,7 +16,29 @@
       "flex-layout.row#banner_3",
       "flex-layout.row#special-offers_2",
       "flex-layout.row#banner_4",
-      "list-context.product-list#productlist_1"
+      "list-context.product-list#productlist_1",
+      "whatsapp-button",
+      "list-context.bullet-group"
     ]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/whatsapp-logo.png",
+      "phone": "3228048771",
+      "message": "Quiero Información"
+    }
+  },
+  "list-context.bullet-group": {
+    "props": {
+      "bullets": [
+        {
+          "image": "miimagen.png",
+          "titleBullet": "computadores",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
   }
 }
