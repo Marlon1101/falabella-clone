@@ -18,7 +18,7 @@
       "flex-layout.row#banner_4",
       "list-context.product-list#productlist_1",
       "whatsapp-button",
-      "list-context.bullet-group"
+      "flex-layout.row#bullets"
     ]
   },
   "whatsapp-button": {
@@ -28,17 +28,85 @@
       "message": "Quiero Información"
     }
   },
-  "list-context.bullet-group": {
+
+  "flex-layout.row#bullets": {
+    "children": ["list-context.bullet-group"],
     "props": {
+      "blockClass": "bullets"
+    }
+  },
+  "list-context.bullet-group": {
+    "title": "Mi contexto de lista de Bullet",
+    "children": ["slider-layout#bullet-group"],
+    "props": {  
       "bullets": [
         {
-          "image": "miimagen.png",
+          "image": "assets/img/home_bullet/blusas.jfif",
           "titleBullet": "computadores",
+          "link": {
+            "url": "/"
+          }
+        },  
+        {
+          "image": "assets/img/home_bullet/zapatos.jfif",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/home_bullet/blusas.jfif",
+          "titleBullet": "computadores",
+          "link": {
+            "url": "/"
+          }
+        },  
+        {
+          "image": "assets/img/home_bullet/zapatos.jfif",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/home_bullet/blusas.jfif",
+          "titleBullet": "computadores",
+          "link": {
+            "url": "/"
+          }
+        },  
+        {
+          "image": "assets/img/home_bullet/zapatos.jfif",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/home_bullet/blusas.jfif",
+          "titleBullet": "computadores",
+          "link": {
+            "url": "/"
+          }
+        },  
+        {
+          "image": "assets/img/home_bullet/zapatos.jfif",
+          "titleBullet": "Ropa",
           "link": {
             "url": "/"
           }
         }
       ]
+    }
+  },
+  "slider-layout#bullet-group" : {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "phone": 5
+      },
+      "infinite": true
     }
   }
 }
