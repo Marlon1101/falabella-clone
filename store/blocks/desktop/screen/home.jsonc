@@ -20,7 +20,8 @@
       "whatsapp-button",
       "flex-layout.row#bullets",
       "flex-layout.row#pdf-reader",
-      "flex-layout.row#quick-order"
+      "flex-layout.row#quick-order",
+      "flex-layout.row#custom-grid"
     ]
   },
   "whatsapp-button": {
@@ -40,7 +41,7 @@
   "list-context.bullet-group": {
     "title": "Mi contexto de lista de Bullet",
     "children": ["slider-layout#bullet-group"],
-    "props": {  
+    "props": {
       "bullets": [
         {
           "image": "assets/img/home_bullet/blusas.jfif",
@@ -48,7 +49,7 @@
           "link": {
             "url": "/"
           }
-        },  
+        },
         {
           "image": "assets/img/home_bullet/zapatos.jfif",
           "titleBullet": "Ropa",
@@ -62,7 +63,7 @@
           "link": {
             "url": "/"
           }
-        },  
+        },
         {
           "image": "assets/img/home_bullet/zapatos.jfif",
           "titleBullet": "Ropa",
@@ -76,7 +77,7 @@
           "link": {
             "url": "/"
           }
-        },  
+        },
         {
           "image": "assets/img/home_bullet/zapatos.jfif",
           "titleBullet": "Ropa",
@@ -90,7 +91,7 @@
           "link": {
             "url": "/"
           }
-        },  
+        },
         {
           "image": "assets/img/home_bullet/zapatos.jfif",
           "titleBullet": "Ropa",
@@ -101,7 +102,7 @@
       ]
     }
   },
-  "slider-layout#bullet-group" : {
+  "slider-layout#bullet-group": {
     "props": {
       "itemsPerPage": {
         "desktop": 5,
@@ -112,24 +113,65 @@
     }
   },
 
-  "flex-layout.row#pdf-reader":{
+  "flex-layout.row#pdf-reader": {
     "children": ["flex-layout.col#pdf-reader"]
   },
 
   "flex-layout.col#pdf-reader": {
     "children": ["pdf-reader-custom"]
   },
-  "pdf-reader-custom":{
+  "pdf-reader-custom": {
     "props": {
       "pdfUrl": "assets/documents/prueba.pdf",
       "width": 500,
       "height": 800
     }
   },
-  "flex-layout.row#quick-order":{
+  "flex-layout.row#quick-order": {
     "children": ["flex-layout.col#quick-order"]
   },
-  "flex-layout.col#quick-order":{
+  "flex-layout.col#quick-order": {
     "children": ["quick-order"]
+  },
+  "flex-layout.row#custom-grid": {
+    "title": "Grilla Custom",
+    "children": ["flex-layout.col#custom-grid"]
+  },
+  "flex-layout.col#custom-grid": {
+    "children": ["custom-grid"]
+  },
+  "custom-grid": {
+    "children": [
+      "rich-text#custom-grid-1",
+      "rich-text#custom-grid-2",
+      "rich-text#custom-grid-3",
+      "rich-text#custom-grid-4",
+      "rich-text#custom-grid-5"
+    ]
+  },
+  "rich-text#custom-grid-1": {
+    "props": {
+      "text": "Grilla 1"
+    }
+  },
+  "rich-text#custom-grid-2": {
+    "props": {
+      "text": "Grilla 2"
+    }
+  },
+  "rich-text#custom-grid-3": {
+    "props": {
+      "text": "Grilla 3"
+    }
+  },
+  "rich-text#custom-grid-4": {
+    "props": {
+      "text": "Grilla 4"
+    }
+  },
+  "rich-text#custom-grid-5": {
+    "props": {
+      "text": "Grilla 5"
+    }
   }
 }
