@@ -20,7 +20,7 @@
       "thumbnailsOrientation": "horizontal"
     }
   },
-  "flex-layout.col#product_info--data":{
+  "flex-layout.col#product_info--data": {
     "title": "Data de producto",
     "children": [
       "flex-layout.row#product_info--data-1",
@@ -30,11 +30,9 @@
       "blockClass": "product_info--data"
     }
   },
-  "flex-layout.row#product_info--data-1":{
+  "flex-layout.row#product_info--data-1": {
     "title": "product_info--data-1",
-    "children": [
-      "flex-layout.col#product_info--data-brand-and-name"
-    ]
+    "children": ["flex-layout.col#product_info--data-brand-and-name"]
   },
   "flex-layout.col#product_info--data-brand-and-name": {
     "title": "product_info--data-brand-and-name",
@@ -43,7 +41,7 @@
       "vtex.store-components:product-name"
     ]
   },
-  "flex-layout.row#product_info--data-2":{
+  "flex-layout.row#product_info--data-2": {
     "title": "product_info--data-2",
     "children": [
       "flex-layout.col#product_info--data-1",
@@ -56,15 +54,13 @@
       "product-rating-inline",
       "sku-selector",
       "product-description",
-      "modal-trigger#shipping-simulator"
+      "modal-trigger#shipping-simulator",
+      "modal-trigger#add-to-cart-info"
     ]
   },
   "flex-layout.col#product_info--data-2": {
     "title": "Data de producto columna 2",
-    "children": [
-      "product-price",
-      "add-to-cart-button"
-    ]
+    "children": ["product-price", "add-to-cart-button"]
   },
   "modal-trigger#shipping-simulator": {
     "children": [
@@ -78,12 +74,15 @@
     }
   },
   "modal-layout#shipping-simulator": {
-    "children": ["modal-header#shipping-simulator", "flex-layout.row#shipping-simulator"],
+    "children": [
+      "modal-header#shipping-simulator",
+      "flex-layout.row#shipping-simulator"
+    ],
     "props": {
       "blockClass": "shipping-simulator"
     }
   },
-  "modal-header#shipping-simulator":{
+  "modal-header#shipping-simulator": {
     "props": {
       "showCloseButton": true
     }
@@ -92,6 +91,21 @@
     "children": ["shipping-simulator"],
     "props": {
       "blockClass": "shipping-simulator"
+    }
+  },
+  "modal-trigger#add-to-cart-info": {
+    "children": ["modal-layout#add-to-cart-info"],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+  "modal-layout#add-to-cart-info": {
+    "children": ["modal-header#add-to-cart-info", "add-to-cart-info"]
+  },
+  "modal-header#add-to-cart-info": {
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 24
     }
   }
 }

@@ -18,7 +18,9 @@
       "flex-layout.row#banner_4",
       "list-context.product-list#productlist_1",
       "whatsapp-button",
-      "flex-layout.row#bullets"
+      "flex-layout.row#bullets",
+      "flex-layout.row#pdf-reader",
+      "flex-layout.row#quick-order"
     ]
   },
   "whatsapp-button": {
@@ -108,5 +110,26 @@
       },
       "infinite": true
     }
+  },
+
+  "flex-layout.row#pdf-reader":{
+    "children": ["flex-layout.col#pdf-reader"]
+  },
+
+  "flex-layout.col#pdf-reader": {
+    "children": ["pdf-reader-custom"]
+  },
+  "pdf-reader-custom":{
+    "props": {
+      "pdfUrl": "assets/documents/prueba.pdf",
+      "width": 500,
+      "height": 800
+    }
+  },
+  "flex-layout.row#quick-order":{
+    "children": ["flex-layout.col#quick-order"]
+  },
+  "flex-layout.col#quick-order":{
+    "children": ["quick-order"]
   }
 }
