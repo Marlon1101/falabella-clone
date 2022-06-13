@@ -31,10 +31,11 @@
     "children": ["minicart-product-list", "flex-layout.row#minicart-block-footer"]
   },
   
+  
   "flex-layout.row#minicart-block-footer": {
     "children": ["flex-layout.col#minicart-block-footer"]
   },
   "flex-layout.col#minicart-block-footer": {
-    "children": ["free-shipping-thermometer"]
+    "children": ["minicart-checkout-button", "free-shipping-thermometer"]
   }
 }
