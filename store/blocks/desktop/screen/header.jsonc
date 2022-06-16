@@ -1,12 +1,23 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop"]
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop"]
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
     "title": "Header Desktop",
+    "children": [
+      "header-row#header_back",
+      "header-row#header_1",
+      "header-row#header_2",
+      "header-row#header_3",
+      "header-row#header_4"
+    ]
+  },
+
+  "header-layout.mobile": {
+    "title": "Header Mobile",
     "children": [
       "header-row#header_back",
       "header-row#header_1",

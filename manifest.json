@@ -1,5 +1,5 @@
 {
-  "vendor": "vuitg",
+  "vendor": "itgloberspartnercl",
   "name": "store-theme",
   "version": "0.0.1",
   "builders": {
@@ -60,7 +60,8 @@
     "vuitg.pdf-reader": "0.x",
     "vuitg.quick-order": "0.x",
     "vuitg.special-diagramation": "0.x",
-    "vuitg.free-shipping-thermometer": "0.x"
+    "vuitg.free-shipping-thermometer": "0.x",
+    "itgloberspartnercl.countdown-promotion": "0.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x",

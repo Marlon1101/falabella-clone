@@ -3,8 +3,8 @@
     "children": [
       "link#background-logo",
       "drawer",
-      /* "search-bar#header_2", */
-      /* "department-search", */
+      "search-bar#header_2",
+      "department-search",
       "modal-trigger#login",
       "minicart.v2#header"
     ],

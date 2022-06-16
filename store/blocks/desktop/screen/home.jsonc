@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "countdown-promotion",
       "slider-layout#home_slider_principal",
       "flex-layout.row#banner_2",
       "flex-layout.row#categories",
