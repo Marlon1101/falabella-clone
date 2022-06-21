@@ -1,8 +1,8 @@
 {
   "store.home": {
     "blocks": [
-      "countdown-promotion",
-      "slider-layout#home_slider_principal",
+      /*"countdown-promotion",
+       "slider-layout#home_slider_principal",
       "flex-layout.row#banner_2",
       "flex-layout.row#categories",
       "flex-layout.row#promotions--1",
@@ -22,7 +22,8 @@
       "flex-layout.row#bullets",
       "flex-layout.row#pdf-reader",
       "flex-layout.row#quick-order",
-      "flex-layout.row#custom-grid"
+      "flex-layout.row#custom-grid", */
+      "flex-layout.row#promotion-grid"
     ]
   },
   "whatsapp-button": {
@@ -174,5 +175,20 @@
     "props": {
       "text": "Grilla 5"
     }
+  },
+
+  "flex-layout.row#promotion-grid": {
+    "title": "Grilla de promociones",
+    "children": ["promotion-grid"]
+  },
+  "promotion-grid": {
+    "title": "Grilla de promociones custom",
+    "children": [
+      "rich-text#custom-grid-1",
+      "rich-text#custom-grid-2",
+      "rich-text#custom-grid-3",
+      "rich-text#custom-grid-4",
+      "rich-text#custom-grid-5"
+    ]
   }
 }
