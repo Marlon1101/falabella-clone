@@ -1,5 +1,6 @@
 {
     "flex-layout.row#banner_4": {
+      "title": "Banner medios de Pago",
       "children": [
         "link#banner_4--1"
       ],

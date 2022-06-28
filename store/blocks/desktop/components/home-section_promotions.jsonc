@@ -1,5 +1,6 @@
 {
   "flex-layout.row#promotions--1": {
+    "title": "Descuentos",
     "children": [
       "flex-layout.col#promotions--1",
       "flex-layout.col#promotions--2"
@@ -9,6 +10,7 @@
     }
   },
   "flex-layout.row#promotions--2": {
+    "title": "Descuentos 2",
     "children": [
         "link#promotions--3"
     ],

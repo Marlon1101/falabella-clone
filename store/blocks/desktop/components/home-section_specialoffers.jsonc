@@ -1,5 +1,6 @@
 {
   "flex-layout.row#special-offers--0": {
+    "title": "Título ofertas especiales",
     "children": ["rich-text#special-offers"]
   },
   "rich-text#special-offers": {
@@ -9,24 +10,28 @@
     }
   },
   "flex-layout.row#special-offers--1": {
+    "title": "Ofertas especiales 1",
     "children": [
       "flex-layout.col#special-offers--1",
       "flex-layout.col#special-offers--2"
     ]
   },
   "flex-layout.row#special-offers--2": {
+    "title": "Ofertas especiales 2",
     "children": [
       "flex-layout.col#special-offers--3",
       "flex-layout.col#special-offers--4"
     ]
   },
   "flex-layout.row#special-offers--3": {
+    "title": "Ofertas especiales 3",
     "children": [
       "flex-layout.col#special-offers--5",
       "flex-layout.col#special-offers--6"
     ]
   },
   "flex-layout.row#special-offers--4": {
+    "title": "Ofertas especiales 4",
     "children": [
       "flex-layout.col#special-offers--7",
       "flex-layout.col#special-offers--8"
@@ -210,6 +215,7 @@
   },
 
   "flex-layout.row#special-offers_2": {
+    "title": "Ofertas especiales 5",
     "children": [
       "flex-layout.col#special-offers_2--1",
       "flex-layout.col#special-offers_2--2"

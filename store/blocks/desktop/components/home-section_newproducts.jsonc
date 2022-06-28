@@ -1,5 +1,6 @@
 {
   "slider-layout#newproducts": {
+    "title": "Slider Nuevos Productos",
     "props": {
       "itemsPerPage": {
         "desktop": 1
@@ -13,10 +14,11 @@
     ]
   },
   "rich-text#newproducts": {
-      "props": {
-          "text": "Nuevos Productos",
-          "blockClass": "newproducts"
-      }
+    "title": "Título Nuevos Productos",
+    "props": {
+        "text": "Nuevos Productos",
+        "blockClass": "newproducts"
+    }
   },
   "flex-layout.row#newproducts--1": {
     "children": [

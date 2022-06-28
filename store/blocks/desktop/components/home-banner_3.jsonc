@@ -1,5 +1,6 @@
 {
     "flex-layout.row#banner_3": {
+      "title": "Banner informativo",
       "children": [
         "link#banner_3--1"
       ],

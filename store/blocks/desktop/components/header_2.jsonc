@@ -15,6 +15,7 @@
   },
 
   "link#background-logo": {
+    "title": "Logo",
     "props": {
       "href": "/",
       "blockClass": "background-color"

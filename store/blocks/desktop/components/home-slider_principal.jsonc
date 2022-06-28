@@ -1,5 +1,6 @@
 {
   "slider-layout#home_slider_principal": {
+    "title": "Slider Principal",
     "props": {
       "itemsPerPage": {
         "desktop": 1

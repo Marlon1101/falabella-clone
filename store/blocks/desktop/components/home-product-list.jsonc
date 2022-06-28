@@ -1,5 +1,6 @@
 {
   "list-context.product-list#productlist_1": {
+    "title": "Vitrina 1",
     "blocks": ["product-summary.shelf#productlist_1"],
     "children": ["rich-text#productlist_1","slider-layout#productlist_1"]
   },

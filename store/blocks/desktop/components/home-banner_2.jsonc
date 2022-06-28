@@ -1,5 +1,6 @@
 {
   "flex-layout.row#banner_2": {
+    "title": "Banner Ofertas",
     "children": [
       "link#banner_2--1",
       "link#banner_2--2",

@@ -6,6 +6,7 @@
     }
   },
   "image#login": {
+    "title": "Imagen login",
     "props": {
       "src": "assets/img/home_header/header-account.svg",
       "blockClass": "login"
@@ -16,6 +17,7 @@
   },
 
   "flex-layout.row#login-1": {
+    "title": "Login",
     "children": ["flex-layout.col#login"]
   },
   "flex-layout.col#login": {
@@ -24,6 +26,7 @@
     }
   },
   "flex-layout.row#login-2": {
+    "title": "Contenido login",
     "children": ["login-content"]
   },
   "login-content": {
@@ -35,11 +38,13 @@
     }
   },
   "rich-text#login-title": {
+    "title": "Título login",
     "props": {
       "text": "**Inicia sesión**"
     }
   },
   "rich-text#login-description": {
+    "title": "Descripción login",
     "props": {
       "text": "Compra más rápido y revisa los detalles de tus compras"
     }
