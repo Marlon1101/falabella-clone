@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "countdown-promotion",
+      /* "countdown-promotion",
       "slider-layout#home_slider_principal",
       "flex-layout.row#banner_2",
       "flex-layout.row#categories",
@@ -22,7 +22,7 @@
       "flex-layout.row#bullets",
       "flex-layout.row#pdf-reader",
       "flex-layout.row#quick-order",
-      "flex-layout.row#custom-grid",
+      "flex-layout.row#custom-grid", */
       "flex-layout.row#promotion-grid"
     ]
   },
@@ -200,32 +200,32 @@
           "title": "El mejor lapiz",
           "description": "sirve para escribir",
           "cta": "#",
-          "image": "https://escobaslanegra.com/wp-content/uploads/2020/11/ESCOBA-DANA-COLOR-SUPER-GRANDE-LA-NEGRA-REF1025-1.jpg"
+          "image": "https://panamericana.vteximg.com.br/arquivos/ids/383529-600-690/lapiz-negro-n-2-mirado-kids-x-2-tajalapiz-1-7703486011777.jpg?v=637494410321800000"
         },
         {
           "name": "Mesa",
           "title": "La mejor mesa",
           "description": "esta mesa sirve para trabajar",
           "cta": "#",
-          "image": "https://escobaslanegra.com/wp-content/uploads/2020/11/ESCOBA-DANA-COLOR-SUPER-GRANDE-LA-NEGRA-REF1025-1.jpg"
+          "image": "https://www.lavoz.com.ar/resizer/e5gaPmOOZL48MKAIwWUJxswX9LM=/1023x682/smart/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/DOLIUMTM3VA4VKZMVHHCEI4WAI.jpg"
         },
         {
           "name": "Vaso",
           "title": "El mejor vaso",
           "description": "este vaso sirve para beber",
           "cta": "#",
-          "image": "https://escobaslanegra.com/wp-content/uploads/2020/11/ESCOBA-DANA-COLOR-SUPER-GRANDE-LA-NEGRA-REF1025-1.jpg"
+          "image": "https://tienda.cristar.com.co/wp-content/uploads/2019/05/0259_Vaso_Nova_Bebidas_Vacio_1024.jpg"
         },
         {
           "name": "Tenedor",
           "title": "El mejor tenedor",
           "description": "Este tenedor sirve para comer",
           "cta": "#",
-          "image": "https://escobaslanegra.com/wp-content/uploads/2020/11/ESCOBA-DANA-COLOR-SUPER-GRANDE-LA-NEGRA-REF1025-1.jpg"
+          "image": "https://www.homeelementsweb.com/wp-content/uploads/2021/02/tenedor-mesa-linea-alamo.jpg"
         }
       ],
-      "gridType": 1,
-      "typeScreen": "desktop"
+      "gridType": 6,
+      "typeScreen": "mobile"
     }
   }
 }
