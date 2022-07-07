@@ -23,7 +23,8 @@
       "flex-layout.row#pdf-reader",
       "flex-layout.row#quick-order",
       "flex-layout.row#custom-grid", */
-      "flex-layout.row#promotion-grid"
+      "flex-layout.row#promotion-grid",
+      "discount-popup"
     ]
   },
   "whatsapp-button": {
@@ -224,8 +225,16 @@
           "image": "https://www.homeelementsweb.com/wp-content/uploads/2021/02/tenedor-mesa-linea-alamo.jpg"
         }
       ],
-      "gridType": 6,
-      "typeScreen": "mobile"
+      "gridType": 3,
+      "typeScreen": "desktop"
+    }
+  },
+  "discount-popup":{
+    "title": "Discount Popup",
+    "props": {
+      "percentageDiscount": 15,
+      "accountName": "marlondelaroche", 
+      "environment": "itgloberspartnercl"
     }
   }
 }
